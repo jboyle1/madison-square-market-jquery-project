@@ -8,4 +8,8 @@ $(document).ready(() => {
     $('#help').on('click', () => {
         $('#helpMenu').show();
     });
-})
+
+    $('.dropdown-menu').on('mouseleave', () => {
+
+    });
+});
