@@ -10,6 +10,6 @@ $(document).ready(() => {
     });
 
     $('.dropdown-menu').on('mouseleave', () => {
-
+        $('.dropdown-menu').hide();
     });
 });
